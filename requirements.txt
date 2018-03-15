@@ -1,5 +1,9 @@
-flask==0.12
-Jinja2==2.6
-Werkzeug==0.8.3
-wsgiref==0.1.2
 flask-assistant==0.2.49
+click==6.7                # via flask
+Flask==0.12
+itsdangerous==0.24        # via flask
+Jinja2==2.9.5             # via flask
+MarkupSafe==1.0           # via jinja2
+requests==2.13.0
+ruamel.yaml==0.15.15
+Werkzeug==0.12            # via flask
