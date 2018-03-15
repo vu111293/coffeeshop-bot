@@ -1,0 +1,26 @@
+[
+    {
+        "id": "4a9b9946-5792-4bef-927a-bf8e9a777f9d", 
+        "isEnum": null, 
+        "name": "gender", 
+        "entries": [
+            {
+                "synonyms": [
+                    "man", 
+                    "boy", 
+                    "guy", 
+                    "dude"
+                ], 
+                "value": "male"
+            }, 
+            {
+                "synonyms": [
+                    "woman", 
+                    "girl", 
+                    "gal"
+                ], 
+                "value": "female"
+            }
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "ask_for_color", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": [
+                    {
+                        "name": "gender", 
+                        "dataType": "@gender", 
+                        "defaultValue": "", 
+                        "required": true, 
+                        "value": "$gender", 
+                        "prompts": [], 
+                        "isList": false
+                    }
+                ]
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "01129e89-6c51-4f11-b24b-78b037f784df", 
+        "priority": 500000, 
+        "userSays": [], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "give-gender"
+    }, 
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "ask_for_season", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": [
+                    {
+                        "name": "color", 
+                        "dataType": "@sys.color", 
+                        "defaultValue": "", 
+                        "required": true, 
+                        "value": "$color", 
+                        "prompts": [], 
+                        "isList": false
+                    }
+                ]
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "9c92363f-f547-480a-8910-07a215c4ff47", 
+        "priority": 500000, 
+        "userSays": [], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "give-color"
+    }, 
+    {
+        "templates": [], 
+        "fallbackIntent": false, 
+        "responses": [
+            {
+                "action": "greet_and_start", 
+                "resetContexts": false, 
+                "affectedContexts": [], 
+                "messages": [], 
+                "parameters": []
+            }
+        ], 
+        "contexts": [], 
+        "auto": true, 
+        "id": "e3df0192-38a4-49a5-923b-c74153e38b7f", 
+        "priority": 500000, 
+        "userSays": [], 
+        "webhookUsed": true, 
+        "webhookForSlotFilling": true, 
+        "events": [], 
+        "name": "greeting"
+    }
+]
